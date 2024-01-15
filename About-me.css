@@ -1,0 +1,87 @@
+.navigation{
+    float: right;
+    margin-right: 10%;
+    font-size: 16px;
+    word-spacing: 65px;
+    flex: 1;
+}
+
+.logo{
+    float: left;
+    margin-left: 64px;
+    margin-bottom: 10px;
+    flex: 1;
+    color: #A9C340;
+}
+
+a{
+    color: #211F54;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover{
+    color: #A9C340;
+}
+
+.CV{
+    float: right;
+    margin-right: 15%;
+}
+
+.Button2{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background: #A9C340;
+}
+
+.About-me-container1{
+    width: 950px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 4px 8px rgba(33,31,84,0.5);
+    margin-left: 15%;
+}
+
+.About-me-container2{
+    width: 950px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 4px 8px rgba(33,31,84,0.5);
+    margin-left: 15%;
+}
+
+body{
+    background:#F7F7FC;
+    /* background: #F4F3FF; this is fonts color */
+    margin:0%;
+    padding: 0%;
+}
+
+
+/* CSS za Footer section */
+.Footer{
+    /* display: flex; */
+    width: 100%;
+    height: 170px;
+    margin-left:0%;
+    background-color: #FFFFFF;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+}
+
+.Footer-container1{
+    display:inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.Footer-container2{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 15%;
+}

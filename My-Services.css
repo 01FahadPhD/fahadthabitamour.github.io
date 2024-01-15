@@ -1,0 +1,110 @@
+.navigation{
+    float: right;
+    margin-right: 10%;
+    font-size: 16px;
+    word-spacing: 65px;
+    flex: 1;
+}
+
+.logo{
+    float: left;
+    margin-left: 64px;
+    margin-bottom: 10px;
+    flex: 1;
+    color: #A9C340;
+}
+
+a{
+    color: #211F54;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover{
+    color: #A9C340;
+}
+
+body{
+    background:#F7F7FC;
+    /* background: #F4F3FF; this is fonts color */
+    margin:0%;
+    padding: 0%;
+}
+
+.My-Service-container1{
+ display: flex;
+ align-items: center;
+ width: 450px;
+ height: 400px;
+ /* margin-left: 25%; */
+ background-color: #FFFFFF;
+ border-radius: 10px;
+ border: 1px solid #FFFFFF;
+ /* box-shadow: 0 4px 8px rgba(169,195,64,0.5); */
+ box-shadow: 0 4px 8px rgba(33,31,84,0.5);
+}
+ /* .My-Service-container1 img{
+    
+    /* margin-right: 20px; */
+ */
+
+.left-side,.right-side{
+    padding: 10%;
+}
+
+/* .right-side img{
+max-width: 100%;
+height: auto;
+} */
+
+.right-side{
+    width: 100px;
+    height: 300px;
+}
+
+.left-side{
+    flex: 1;
+    width: 350px;
+    /* background-color: chartreuse; */
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 24;
+    margin-bottom: 10px;
+    color: #A9C340;
+}
+
+p{
+    font-size: 16px;
+    color: #211F54;
+
+}
+
+img{
+    height: 300px; 
+    margin-top: 10px;
+}
+
+/* CSS za Footer section */
+.Footer{
+    /* display: flex; */
+    width: 100%;
+    height: 170px;
+    margin-left:0%;
+    background-color: #FFFFFF;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+}
+
+.Footer-container1{
+    display:inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.Footer-container2{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 15%;
+}

@@ -1,0 +1,150 @@
+.navigation{
+    float: right;
+    margin-right: 10%;
+    font-size: 16px;
+    word-spacing: 65px;
+    flex: 1;
+}
+
+.Main-logo{
+    float: left;
+    margin-left: 64px;
+    margin-bottom: 10px;
+    flex: 1;
+    color: #A9C340;
+}
+
+a{
+    color: #211F54;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover{
+    color:#A9C340;
+}
+
+body{
+    background:#F7F7FC;
+    /* background: #F4F3FF; this is fonts color */
+    margin:0%;
+    padding: 0%;
+}
+
+button{
+    margin-left: 45%;
+    color: #F7F7FC;
+    background-color: #A9C340;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.link{
+    color: #211F54;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.link:hover{
+    color:#F7F7FC;
+}
+ 
+/* CSS OF MAJOR CONTENT */
+.Large-container {
+    padding: 20px;
+    margin-bottom: 200px;
+  }
+
+  .small-container {
+    /* border: 1px solid #211F54 ; */
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: calc(33.33% - 20px);
+    height: 150px;
+    float: left;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(169, 195, 64, 1);
+  }
+
+  .logo {
+    width: 45px; 
+    height: 45px; 
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+/* CSS ZA LAST CONTENTS */
+.outer-image-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .large-image {
+    width: 100%;
+    display: block;
+  }
+
+  .small-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 350px;
+  }
+
+  .word-list {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 350px;
+    padding: 10px;
+  }
+
+  .word-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .word-list li {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+/* CSS za Footer section */
+.Footer{
+    /* display: flex; */
+    width: 100%;
+    height: 170px;
+    margin-left:0%;
+    background-color: #FFFFFF;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+}
+
+.Footer-container1{
+    display:inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.Footer-container2{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 15%;
+}
